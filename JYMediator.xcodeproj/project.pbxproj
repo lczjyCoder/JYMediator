@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		80D511CC1E4AF5F200BAAE1B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 80D511CB1E4AF5F200BAAE1B /* main.m */; };
+		80D511CF1E4AF5F200BAAE1B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 80D511CE1E4AF5F200BAAE1B /* AppDelegate.m */; };
+		80D511D21E4AF5F200BAAE1B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80D511D11E4AF5F200BAAE1B /* ViewController.m */; };
+		80D511D51E4AF5F200BAAE1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80D511D31E4AF5F200BAAE1B /* Main.storyboard */; };
+		80D511D71E4AF5F200BAAE1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80D511D61E4AF5F200BAAE1B /* Assets.xcassets */; };
+		80D511DA1E4AF5F200BAAE1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80D511D81E4AF5F200BAAE1B /* LaunchScreen.storyboard */; };
+		80D511E51E4AF5F200BAAE1B /* JYMediatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 80D511E41E4AF5F200BAAE1B /* JYMediatorTests.m */; };
+		80D511F01E4AF5F200BAAE1B /* JYMediatorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 80D511EF1E4AF5F200BAAE1B /* JYMediatorUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		80D511E11E4AF5F200BAAE1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80D511BF1E4AF5F200BAAE1B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80D511C61E4AF5F200BAAE1B;
+			remoteInfo = JYMediator;
+		};
+		80D511EC1E4AF5F200BAAE1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80D511BF1E4AF5F200BAAE1B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80D511C61E4AF5F200BAAE1B;
+			remoteInfo = JYMediator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		80D511C71E4AF5F200BAAE1B /* JYMediator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JYMediator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		80D511CB1E4AF5F200BAAE1B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		80D511CD1E4AF5F200BAAE1B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		80D511CE1E4AF5F200BAAE1B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		80D511D01E4AF5F200BAAE1B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		80D511D11E4AF5F200BAAE1B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		80D511D41E4AF5F200BAAE1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		80D511D61E4AF5F200BAAE1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		80D511D91E4AF5F200BAAE1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		80D511DB1E4AF5F200BAAE1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80D511E01E4AF5F200BAAE1B /* JYMediatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JYMediatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		80D511E41E4AF5F200BAAE1B /* JYMediatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JYMediatorTests.m; sourceTree = "<group>"; };
+		80D511E61E4AF5F200BAAE1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80D511EB1E4AF5F200BAAE1B /* JYMediatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JYMediatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		80D511EF1E4AF5F200BAAE1B /* JYMediatorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JYMediatorUITests.m; sourceTree = "<group>"; };
+		80D511F11E4AF5F200BAAE1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		80D511C41E4AF5F200BAAE1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80D511DD1E4AF5F200BAAE1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80D511E81E4AF5F200BAAE1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		80D511BE1E4AF5F200BAAE1B = {
+			isa = PBXGroup;
+			children = (
+				80D511C91E4AF5F200BAAE1B /* JYMediator */,
+				80D511E31E4AF5F200BAAE1B /* JYMediatorTests */,
+				80D511EE1E4AF5F200BAAE1B /* JYMediatorUITests */,
+				80D511C81E4AF5F200BAAE1B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		80D511C81E4AF5F200BAAE1B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80D511C71E4AF5F200BAAE1B /* JYMediator.app */,
+				80D511E01E4AF5F200BAAE1B /* JYMediatorTests.xctest */,
+				80D511EB1E4AF5F200BAAE1B /* JYMediatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		80D511C91E4AF5F200BAAE1B /* JYMediator */ = {
+			isa = PBXGroup;
+			children = (
+				80D511CD1E4AF5F200BAAE1B /* AppDelegate.h */,
+				80D511CE1E4AF5F200BAAE1B /* AppDelegate.m */,
+				80D511D01E4AF5F200BAAE1B /* ViewController.h */,
+				80D511D11E4AF5F200BAAE1B /* ViewController.m */,
+				80D511D31E4AF5F200BAAE1B /* Main.storyboard */,
+				80D511D61E4AF5F200BAAE1B /* Assets.xcassets */,
+				80D511D81E4AF5F200BAAE1B /* LaunchScreen.storyboard */,
+				80D511DB1E4AF5F200BAAE1B /* Info.plist */,
+				80D511CA1E4AF5F200BAAE1B /* Supporting Files */,
+			);
+			path = JYMediator;
+			sourceTree = "<group>";
+		};
+		80D511CA1E4AF5F200BAAE1B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				80D511CB1E4AF5F200BAAE1B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		80D511E31E4AF5F200BAAE1B /* JYMediatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				80D511E41E4AF5F200BAAE1B /* JYMediatorTests.m */,
+				80D511E61E4AF5F200BAAE1B /* Info.plist */,
+			);
+			path = JYMediatorTests;
+			sourceTree = "<group>";
+		};
+		80D511EE1E4AF5F200BAAE1B /* JYMediatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				80D511EF1E4AF5F200BAAE1B /* JYMediatorUITests.m */,
+				80D511F11E4AF5F200BAAE1B /* Info.plist */,
+			);
+			path = JYMediatorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		80D511C61E4AF5F200BAAE1B /* JYMediator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80D511F41E4AF5F200BAAE1B /* Build configuration list for PBXNativeTarget "JYMediator" */;
+			buildPhases = (
+				80D511C31E4AF5F200BAAE1B /* Sources */,
+				80D511C41E4AF5F200BAAE1B /* Frameworks */,
+				80D511C51E4AF5F200BAAE1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JYMediator;
+			productName = JYMediator;
+			productReference = 80D511C71E4AF5F200BAAE1B /* JYMediator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		80D511DF1E4AF5F200BAAE1B /* JYMediatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80D511F71E4AF5F200BAAE1B /* Build configuration list for PBXNativeTarget "JYMediatorTests" */;
+			buildPhases = (
+				80D511DC1E4AF5F200BAAE1B /* Sources */,
+				80D511DD1E4AF5F200BAAE1B /* Frameworks */,
+				80D511DE1E4AF5F200BAAE1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80D511E21E4AF5F200BAAE1B /* PBXTargetDependency */,
+			);
+			name = JYMediatorTests;
+			productName = JYMediatorTests;
+			productReference = 80D511E01E4AF5F200BAAE1B /* JYMediatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		80D511EA1E4AF5F200BAAE1B /* JYMediatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80D511FA1E4AF5F200BAAE1B /* Build configuration list for PBXNativeTarget "JYMediatorUITests" */;
+			buildPhases = (
+				80D511E71E4AF5F200BAAE1B /* Sources */,
+				80D511E81E4AF5F200BAAE1B /* Frameworks */,
+				80D511E91E4AF5F200BAAE1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80D511ED1E4AF5F200BAAE1B /* PBXTargetDependency */,
+			);
+			name = JYMediatorUITests;
+			productName = JYMediatorUITests;
+			productReference = 80D511EB1E4AF5F200BAAE1B /* JYMediatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		80D511BF1E4AF5F200BAAE1B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = personal;
+				TargetAttributes = {
+					80D511C61E4AF5F200BAAE1B = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					80D511DF1E4AF5F200BAAE1B = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 80D511C61E4AF5F200BAAE1B;
+					};
+					80D511EA1E4AF5F200BAAE1B = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 80D511C61E4AF5F200BAAE1B;
+					};
+				};
+			};
+			buildConfigurationList = 80D511C21E4AF5F200BAAE1B /* Build configuration list for PBXProject "JYMediator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 80D511BE1E4AF5F200BAAE1B;
+			productRefGroup = 80D511C81E4AF5F200BAAE1B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				80D511C61E4AF5F200BAAE1B /* JYMediator */,
+				80D511DF1E4AF5F200BAAE1B /* JYMediatorTests */,
+				80D511EA1E4AF5F200BAAE1B /* JYMediatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		80D511C51E4AF5F200BAAE1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80D511DA1E4AF5F200BAAE1B /* LaunchScreen.storyboard in Resources */,
+				80D511D71E4AF5F200BAAE1B /* Assets.xcassets in Resources */,
+				80D511D51E4AF5F200BAAE1B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80D511DE1E4AF5F200BAAE1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80D511E91E4AF5F200BAAE1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		80D511C31E4AF5F200BAAE1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80D511D21E4AF5F200BAAE1B /* ViewController.m in Sources */,
+				80D511CF1E4AF5F200BAAE1B /* AppDelegate.m in Sources */,
+				80D511CC1E4AF5F200BAAE1B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80D511DC1E4AF5F200BAAE1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80D511E51E4AF5F200BAAE1B /* JYMediatorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80D511E71E4AF5F200BAAE1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80D511F01E4AF5F200BAAE1B /* JYMediatorUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		80D511E21E4AF5F200BAAE1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80D511C61E4AF5F200BAAE1B /* JYMediator */;
+			targetProxy = 80D511E11E4AF5F200BAAE1B /* PBXContainerItemProxy */;
+		};
+		80D511ED1E4AF5F200BAAE1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80D511C61E4AF5F200BAAE1B /* JYMediator */;
+			targetProxy = 80D511EC1E4AF5F200BAAE1B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		80D511D31E4AF5F200BAAE1B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80D511D41E4AF5F200BAAE1B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		80D511D81E4AF5F200BAAE1B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80D511D91E4AF5F200BAAE1B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		80D511F21E4AF5F200BAAE1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		80D511F31E4AF5F200BAAE1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		80D511F51E4AF5F200BAAE1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JYMediator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = personal.zjy.JYMediator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		80D511F61E4AF5F200BAAE1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JYMediator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = personal.zjy.JYMediator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		80D511F81E4AF5F200BAAE1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JYMediatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = personal.zjy.JYMediatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JYMediator.app/JYMediator";
+			};
+			name = Debug;
+		};
+		80D511F91E4AF5F200BAAE1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JYMediatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = personal.zjy.JYMediatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JYMediator.app/JYMediator";
+			};
+			name = Release;
+		};
+		80D511FB1E4AF5F200BAAE1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JYMediatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = personal.zjy.JYMediatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JYMediator;
+			};
+			name = Debug;
+		};
+		80D511FC1E4AF5F200BAAE1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JYMediatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = personal.zjy.JYMediatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JYMediator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		80D511C21E4AF5F200BAAE1B /* Build configuration list for PBXProject "JYMediator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80D511F21E4AF5F200BAAE1B /* Debug */,
+				80D511F31E4AF5F200BAAE1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80D511F41E4AF5F200BAAE1B /* Build configuration list for PBXNativeTarget "JYMediator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80D511F51E4AF5F200BAAE1B /* Debug */,
+				80D511F61E4AF5F200BAAE1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		80D511F71E4AF5F200BAAE1B /* Build configuration list for PBXNativeTarget "JYMediatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80D511F81E4AF5F200BAAE1B /* Debug */,
+				80D511F91E4AF5F200BAAE1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		80D511FA1E4AF5F200BAAE1B /* Build configuration list for PBXNativeTarget "JYMediatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80D511FB1E4AF5F200BAAE1B /* Debug */,
+				80D511FC1E4AF5F200BAAE1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 80D511BF1E4AF5F200BAAE1B /* Project object */;
+}
