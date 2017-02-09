@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "AComponent.h"
 @interface AppDelegate ()
 
 @end
@@ -16,7 +16,12 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    AComponent *aComponent = [[AComponent alloc] init];
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:aComponent];
+    nav.interactivePopGestureRecognizer.enabled = NO;
+    _window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    _window.rootViewController = nav;
+    [_window makeKeyAndVisible];
     return YES;
 }
 

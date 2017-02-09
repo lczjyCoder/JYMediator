@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		801C66571E4C17A000EF2CD3 /* Target_A.m in Sources */ = {isa = PBXBuildFile; fileRef = 801C66561E4C17A000EF2CD3 /* Target_A.m */; };
+		801C665A1E4C17AD00EF2CD3 /* Target_B.m in Sources */ = {isa = PBXBuildFile; fileRef = 801C66591E4C17AD00EF2CD3 /* Target_B.m */; };
 		80D511CC1E4AF5F200BAAE1B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 80D511CB1E4AF5F200BAAE1B /* main.m */; };
 		80D511CF1E4AF5F200BAAE1B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 80D511CE1E4AF5F200BAAE1B /* AppDelegate.m */; };
-		80D511D21E4AF5F200BAAE1B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80D511D11E4AF5F200BAAE1B /* ViewController.m */; };
-		80D511D51E4AF5F200BAAE1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80D511D31E4AF5F200BAAE1B /* Main.storyboard */; };
 		80D511D71E4AF5F200BAAE1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80D511D61E4AF5F200BAAE1B /* Assets.xcassets */; };
 		80D511DA1E4AF5F200BAAE1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80D511D81E4AF5F200BAAE1B /* LaunchScreen.storyboard */; };
 		80D511E51E4AF5F200BAAE1B /* JYMediatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 80D511E41E4AF5F200BAAE1B /* JYMediatorTests.m */; };
 		80D511F01E4AF5F200BAAE1B /* JYMediatorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 80D511EF1E4AF5F200BAAE1B /* JYMediatorUITests.m */; };
+		80D512011E4AF6DF00BAAE1B /* AComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 80D512001E4AF6DF00BAAE1B /* AComponent.m */; };
+		80D512041E4AF6F300BAAE1B /* BComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 80D512031E4AF6F300BAAE1B /* BComponent.m */; };
+		80D512071E4AF76800BAAE1B /* JYMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 80D512061E4AF76800BAAE1B /* JYMediator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,13 +38,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		801C66551E4C17A000EF2CD3 /* Target_A.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Target_A.h; sourceTree = "<group>"; };
+		801C66561E4C17A000EF2CD3 /* Target_A.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Target_A.m; sourceTree = "<group>"; };
+		801C66581E4C17AD00EF2CD3 /* Target_B.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Target_B.h; sourceTree = "<group>"; };
+		801C66591E4C17AD00EF2CD3 /* Target_B.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Target_B.m; sourceTree = "<group>"; };
 		80D511C71E4AF5F200BAAE1B /* JYMediator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JYMediator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80D511CB1E4AF5F200BAAE1B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		80D511CD1E4AF5F200BAAE1B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		80D511CE1E4AF5F200BAAE1B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		80D511D01E4AF5F200BAAE1B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		80D511D11E4AF5F200BAAE1B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		80D511D41E4AF5F200BAAE1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		80D511D61E4AF5F200BAAE1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		80D511D91E4AF5F200BAAE1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		80D511DB1E4AF5F200BAAE1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +55,12 @@
 		80D511EB1E4AF5F200BAAE1B /* JYMediatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JYMediatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		80D511EF1E4AF5F200BAAE1B /* JYMediatorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JYMediatorUITests.m; sourceTree = "<group>"; };
 		80D511F11E4AF5F200BAAE1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80D511FF1E4AF6DF00BAAE1B /* AComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AComponent.h; sourceTree = "<group>"; };
+		80D512001E4AF6DF00BAAE1B /* AComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AComponent.m; sourceTree = "<group>"; };
+		80D512021E4AF6F300BAAE1B /* BComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BComponent.h; sourceTree = "<group>"; };
+		80D512031E4AF6F300BAAE1B /* BComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BComponent.m; sourceTree = "<group>"; };
+		80D512051E4AF76800BAAE1B /* JYMediator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYMediator.h; sourceTree = "<group>"; };
+		80D512061E4AF76800BAAE1B /* JYMediator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYMediator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,9 +113,8 @@
 			children = (
 				80D511CD1E4AF5F200BAAE1B /* AppDelegate.h */,
 				80D511CE1E4AF5F200BAAE1B /* AppDelegate.m */,
-				80D511D01E4AF5F200BAAE1B /* ViewController.h */,
-				80D511D11E4AF5F200BAAE1B /* ViewController.m */,
-				80D511D31E4AF5F200BAAE1B /* Main.storyboard */,
+				80D511FE1E4AF66400BAAE1B /* Demo */,
+				80D511FD1E4AF66400BAAE1B /* JYMediator */,
 				80D511D61E4AF5F200BAAE1B /* Assets.xcassets */,
 				80D511D81E4AF5F200BAAE1B /* LaunchScreen.storyboard */,
 				80D511DB1E4AF5F200BAAE1B /* Info.plist */,
@@ -138,6 +147,30 @@
 				80D511F11E4AF5F200BAAE1B /* Info.plist */,
 			);
 			path = JYMediatorUITests;
+			sourceTree = "<group>";
+		};
+		80D511FD1E4AF66400BAAE1B /* JYMediator */ = {
+			isa = PBXGroup;
+			children = (
+				80D512051E4AF76800BAAE1B /* JYMediator.h */,
+				80D512061E4AF76800BAAE1B /* JYMediator.m */,
+			);
+			path = JYMediator;
+			sourceTree = "<group>";
+		};
+		80D511FE1E4AF66400BAAE1B /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				80D511FF1E4AF6DF00BAAE1B /* AComponent.h */,
+				80D512001E4AF6DF00BAAE1B /* AComponent.m */,
+				80D512021E4AF6F300BAAE1B /* BComponent.h */,
+				80D512031E4AF6F300BAAE1B /* BComponent.m */,
+				801C66551E4C17A000EF2CD3 /* Target_A.h */,
+				801C66561E4C17A000EF2CD3 /* Target_A.m */,
+				801C66581E4C17AD00EF2CD3 /* Target_B.h */,
+				801C66591E4C17AD00EF2CD3 /* Target_B.m */,
+			);
+			path = Demo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,6 +240,7 @@
 				TargetAttributes = {
 					80D511C61E4AF5F200BAAE1B = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 3NY6R8Z8T4;
 						ProvisioningStyle = Automatic;
 					};
 					80D511DF1E4AF5F200BAAE1B = {
@@ -248,7 +282,6 @@
 			files = (
 				80D511DA1E4AF5F200BAAE1B /* LaunchScreen.storyboard in Resources */,
 				80D511D71E4AF5F200BAAE1B /* Assets.xcassets in Resources */,
-				80D511D51E4AF5F200BAAE1B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,9 +306,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80D511D21E4AF5F200BAAE1B /* ViewController.m in Sources */,
+				80D512041E4AF6F300BAAE1B /* BComponent.m in Sources */,
+				80D512011E4AF6DF00BAAE1B /* AComponent.m in Sources */,
 				80D511CF1E4AF5F200BAAE1B /* AppDelegate.m in Sources */,
+				80D512071E4AF76800BAAE1B /* JYMediator.m in Sources */,
+				801C665A1E4C17AD00EF2CD3 /* Target_B.m in Sources */,
 				80D511CC1E4AF5F200BAAE1B /* main.m in Sources */,
+				801C66571E4C17A000EF2CD3 /* Target_A.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,14 +348,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		80D511D31E4AF5F200BAAE1B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				80D511D41E4AF5F200BAAE1B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		80D511D81E4AF5F200BAAE1B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -422,7 +451,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3NY6R8Z8T4;
 				INFOPLIST_FILE = JYMediator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = personal.zjy.JYMediator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -433,7 +464,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3NY6R8Z8T4;
 				INFOPLIST_FILE = JYMediator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = personal.zjy.JYMediator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -505,6 +538,7 @@
 				80D511F61E4AF5F200BAAE1B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		80D511F71E4AF5F200BAAE1B /* Build configuration list for PBXNativeTarget "JYMediatorTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +547,7 @@
 				80D511F91E4AF5F200BAAE1B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		80D511FA1E4AF5F200BAAE1B /* Build configuration list for PBXNativeTarget "JYMediatorUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +556,7 @@
 				80D511FC1E4AF5F200BAAE1B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
